@@ -4,7 +4,7 @@ export default function ResumePage() {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-gradient-to-br from-blue-100 via-white to-green-100 min-h-screen">
       <header className="text-center mb-10">
-        <h1 className="text-5xl font-extrabold text-blue-700 drop-shadow-lg">Anthonys Kingston</h1>
+        <h1 className="text-5xl font-extrabold text-blue-700 drop-shadow-lg">Anthony Kingston</h1>
         <p className="text-lg mt-2 text-gray-700">Software Engineer & Technical Support</p>
       </header>
 
@@ -28,7 +28,7 @@ export default function ResumePage() {
 
         <div className="bg-white rounded-2xl shadow-md p-4">
           <h2 className="text-xl font-semibold text-green-800">Education</h2>
-          <p>Bachelor of Science, Major in Computer Sscience - University of Waikato</p>
+          <p>Bachelor of Science, Major in Computer Science - University of Waikato</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-md p-4">
