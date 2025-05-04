@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../public/photo.jpg"; // Make sure image is placed in public/photo.jpg
+
 
 export default function ResumePage() {
   return (
