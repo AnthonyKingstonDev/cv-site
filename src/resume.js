@@ -28,7 +28,7 @@ export default function ResumePage() {
 
         <div className="bg-white rounded-2xl shadow-md p-4">
           <h2 className="text-xl font-semibold text-green-800">Education</h2>
-          <p>Bachelor of Science, Major in Computer Science - University of Waikato</p>
+          <p>Bachelor of Science, Major in Computer Sscience - University of Waikato</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-md p-4">
