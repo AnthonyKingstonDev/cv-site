@@ -1,16 +1,23 @@
 import React from "react";
+import ProfilePic from "../public/photo.jpg"; // Make sure image is placed in public/photo.jpg
 
 export default function ResumePage() {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-gradient-to-br from-blue-100 via-white to-green-100 min-h-screen">
+    <div className="max-w-4xl mx-auto p-6 bg-gradient-to-br from-blue-100 via-white to-green-100 min-h-screen font-sans">
       <header className="text-center mb-10">
-        <h1 className="text-5xl font-extrabold text-blue-700 drop-shadow-lg">Anthony Kingston</h1>
+        <img
+          src="/photo.jpg"
+          alt="Anthony Kingston"
+          className="mx-auto w-32 h-32 rounded-full border-4 border-blue-400 shadow-lg object-cover"
+        />
+        <h1 className="text-5xl font-extrabold text-blue-700 drop-shadow-lg mt-4">Anthony Kingston</h1>
         <p className="text-lg mt-2 text-gray-700">Software Engineer & Technical Support</p>
+        <p className="text-sm text-gray-500 mt-1">Passionate about solving problems and building beautiful software.</p>
       </header>
 
-      <div className="bg-white rounded-2xl shadow-xl p-6 mb-8">
+      <div className="bg-white rounded-2xl shadow-xl p-6 mb-8 transition-all duration-300 hover:shadow-2xl">
         <h2 className="text-2xl font-bold text-blue-800">Contact</h2>
-        <ul className="list-none mt-2 text-gray-800">
+        <ul className="list-none mt-2 text-gray-800 space-y-1">
           <li>Email: <a href="mailto:britdig2@gmail.com" className="text-blue-600 hover:underline">britdig2@gmail.com</a></li>
           <li>Phone: 0431 489 712</li>
           <li>GitHub: <a href="https://github.com/AnthonyKingstonDev?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AnthonyKingstonDev</a></li>
@@ -18,7 +25,7 @@ export default function ResumePage() {
       </div>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-white rounded-2xl shadow-md p-4">
+        <div className="bg-white rounded-2xl shadow-md p-4 hover:ring hover:ring-blue-200">
           <h2 className="text-xl font-semibold text-green-800">Right to Work</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>New Zealand citizen</li>
@@ -26,17 +33,17 @@ export default function ResumePage() {
           </ul>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-md p-4">
+        <div className="bg-white rounded-2xl shadow-md p-4 hover:ring hover:ring-blue-200">
           <h2 className="text-xl font-semibold text-green-800">Education</h2>
           <p>Bachelor of Science, Major in Computer Science - University of Waikato</p>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-md p-4">
+        <div className="bg-white rounded-2xl shadow-md p-4 hover:ring hover:ring-blue-200">
           <h2 className="text-xl font-semibold text-green-800">Driving License</h2>
           <p>Full Queensland Driving License</p>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-md p-4">
+        <div className="bg-white rounded-2xl shadow-md p-4 hover:ring hover:ring-blue-200">
           <h2 className="text-xl font-semibold text-green-800">Technical Skills</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Java, C#, Python</li>
@@ -46,7 +53,7 @@ export default function ResumePage() {
         </div>
       </section>
 
-      <div className="bg-white rounded-2xl shadow-xl p-6 mt-10">
+      <div className="bg-white rounded-2xl shadow-xl p-6 mt-10 hover:ring-2 hover:ring-purple-300">
         <h2 className="text-2xl font-bold text-purple-800 mb-4">Experience</h2>
 
         <div className="mb-6">
