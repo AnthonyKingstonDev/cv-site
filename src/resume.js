@@ -135,6 +135,28 @@ export default function ResumePage() {
         ))}
       </div>
 
+      <div className="bg-white rounded-2xl shadow-xl p-6 mt-10 transition-all duration-300 hover:ring-2 hover:ring-yellow-300 hover:scale-[1.01]">
+        <h2 className="text-2xl font-bold text-yellow-800 mb-4">Projects</h2>
+
+        <div className="mb-6 transition-all duration-300 hover:opacity-95">
+          <h3 className="text-xl font-semibold text-yellow-600">Meme Generation App</h3>
+          <p className="text-sm text-gray-600">React & Java | 2025</p>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Created a dynamic meme generator using React frontend and Java backend</li>
+            <li>Users can choose templates and add custom text to generate memes</li>
+            <li>Deployed on Vercel with responsive design and real-time editing</li>
+          </ul>
+          <a
+            href="https://meme-app-gray.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-yellow-600 hover:underline transition-colors duration-300"
+          >
+            View Live App →
+          </a>
+        </div>
+      </div>
+
       <footer className="text-center text-sm text-gray-500 mt-10 opacity-80 transition-opacity duration-300 hover:opacity-100">
         © 2025 Anthony Kingston. Built with React & Tailwind CSS.
       </footer>
